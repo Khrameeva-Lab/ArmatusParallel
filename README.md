@@ -13,7 +13,11 @@ brew install mpich2
 ```
 ## Building
 To compile the code type the following commands in the terminal:
-```C
+```bash
 cmake CMakeLists.txt
 make
+```
+## Run
+```bash
+./run_armatus.sh
 ```
